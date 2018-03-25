@@ -35,7 +35,7 @@ public final class NetworkUtils {
     private static final String LOG_TAG = NetworkUtils.class.getSimpleName();
 
     /** Key for OpenWeatherMap API*/
-    private static String REQUEST_URL_KEY = "&units=Imperial&appid=b5360cabf9d8535045649e71e3f2764f";
+    private static String REQUEST_URL_KEY = "&units=Imperial&appid=ADD_KEY_HERE";
 
     private DBHelper mydb;
 
