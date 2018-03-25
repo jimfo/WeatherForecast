@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/add_city_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/top_ll"
+        android:paddingTop="4dp"
+        android:background="#0E3F66"
+        android:orientation="horizontal"
+        android:layout_marginBottom="14dp">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/weather_back_tv"
+            android:layout_weight="12"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp"
+            android:gravity="start|center_vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="selectCity"
+            android:drawableStart="@drawable/arrow_left"
+            android:drawableLeft="@drawable/arrow_left"
+            android:text="@string/weather"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:padding="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="#00A695">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/add_city_et"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:hint="@string/search_hint"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:drawableStart="@android:drawable/ic_menu_search"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_city_lv">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:padding="1dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/button_border"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/grey">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/current_location_tv"
+            android:background="@color/white"
+            android:onClick="getLocation"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/black"
+            android:gravity="center|center_vertical"
+            android:text="@string/current_loc" />
+    </LinearLayout>
+    
+
+
+</LinearLayout>

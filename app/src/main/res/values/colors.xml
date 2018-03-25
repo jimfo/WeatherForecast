@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="daytime_theme">#33B5E5</color>
+    <color name="evening_theme">#0C485A</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="lightgrey">#DDD</color>
+    <color name="grey">#888</color>
+    <color name="yesno">#1766A6</color>
+    <color name="spanstring">#00FFFF</color>
+    <color name="add_city_color">#0E3F66</color>
+</resources>

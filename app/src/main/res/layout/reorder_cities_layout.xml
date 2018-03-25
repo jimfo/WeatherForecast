@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:background="#33B5E5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/back_btn_tv"
+            android:layout_weight="8"
+            android:layout_gravity="start|center_vertical"
+            android:paddingStart="8dp"
+            android:paddingLeft="8dp"
+            android:clickable="true"
+            android:onClick="topBarSelection"
+            android:focusable="true"
+            android:drawableStart="@drawable/arrow_left"
+            android:drawableLeft="@drawable/arrow_left"
+            android:text="@string/weather" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingEnd="8dp"
+            android:paddingRight="8dp"
+            android:onClick="topBarSelection"
+            android:id="@+id/delete_btn_iv"
+            android:src="@drawable/delete_btn"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingStart="8dp"
+            android:paddingLeft="8dp"
+            android:onClick="topBarSelection"
+            android:id="@+id/settings_btn_iv"
+            android:src="@drawable/plus"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/separator"
+        android:background="@android:color/darker_gray"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reorder_list_view">
+    </ListView>
+
+</LinearLayout>

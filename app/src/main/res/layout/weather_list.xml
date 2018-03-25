@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33B5E5"
+    android:id="@+id/weather_list_rl"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_weather_list"
+        android:paddingTop="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:id="@+id/top_ll"
+            android:paddingTop="4dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="14dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/back_btn_tv"
+                android:layout_weight="8"
+                android:gravity="start|center"
+                android:paddingStart="8dp"
+                android:paddingLeft="8dp"
+                android:clickable="true"
+                android:onClick="topBarSelection"
+                android:focusable="true"
+                android:drawableStart="@drawable/arrow_left"
+                android:drawableLeft="@drawable/arrow_left"
+                android:text="@string/weather" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="topBarSelection"
+                android:id="@+id/delete_btn_iv"
+                android:src="@drawable/delete_btn"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="topBarSelection"
+                android:id="@+id/settings_btn_iv"
+                android:src="@drawable/settings"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/separator"
+            android:background="@android:color/darker_gray"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24dp"
+            android:id="@+id/list_view">
+        </ListView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/weather_list_add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="topBarSelection"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/add_btn"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:color="#8833B5E5"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/resetbar_ll">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:autoLink="web"
+            android:paddingLeft="4dp"
+            android:textColorLink="@color/white"
+            android:text="@string/website"
+            tools:text="JamesFody.com"
+            tools:ignore="NestedWeights"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/updateTime"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:onClick="updateWeather"
+                android:clickable="true"
+                android:focusable="true"
+                android:drawableRight="@drawable/refresh"
+                android:drawableEnd="@drawable/refresh"
+                android:gravity="end" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

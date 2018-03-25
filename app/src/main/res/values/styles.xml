@@ -1,0 +1,19 @@
+<resources>
+    <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="colorPrimaryDark">@color/evening_theme</item>
+        @android:color/holo_blue_light"
+    </style>
+
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">#FFF</item>
+        <item name="android:textColorSecondary">#FFF</item>
+    </style>
+
+
+</resources>

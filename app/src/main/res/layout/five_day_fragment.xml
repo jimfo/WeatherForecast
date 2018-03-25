@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/five_day_ll"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Day One -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/day_one"
+            tools:text="MON"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_one_icon"
+            android:layout_weight="1"
+            android:src="@drawable/clearsky"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/day_one_high"
+            tools:text="47"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <!-- Day Two -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/day_two"
+            tools:text="TUE"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_two_icon"
+            android:layout_weight="1"
+            android:src="@drawable/clearsky"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_two_high"
+            android:layout_weight="1"
+            tools:text="48"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <!-- Day Three -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_three"
+            android:layout_weight="1"
+            tools:text="WED"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_three_icon"
+            android:layout_weight="1"
+            android:src="@drawable/clearsky"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_three_high"
+            android:layout_weight="1"
+            tools:text="48"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <!-- Day Four -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_four"
+            android:layout_weight="1"
+            tools:text="THU"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_four_icon"
+            android:layout_weight="1"
+            android:src="@drawable/clearsky"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_four_high"
+            android:layout_weight="1"
+            tools:text="48"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Day Five -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_five"
+            android:layout_weight="1"
+            tools:text="FRI"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_five_icon"
+            android:layout_weight="1"
+            android:src="@drawable/clearsky"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/day_five_high"
+            android:layout_weight="1"
+            tools:text="48"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

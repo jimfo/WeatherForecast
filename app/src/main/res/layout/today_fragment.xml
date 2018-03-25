@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/today_ll"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Daytime Weather -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/day_title"
+            android:fontFamily="casual"
+            android:textAllCaps="true"
+            android:text="@string/day"
+            tools:text="47"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/daytime_icon"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/sunrise_icon"
+                android:src="@drawable/sunrise"
+                android:scaleType="fitEnd"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="DAY"
+                android:fontFamily="casual"
+                android:gravity="start|center"
+                android:id="@+id/daytime_tv"
+                tools:text="SUNRISE" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Evening Weather -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/night_title"
+            android:text="@string/evening"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            tools:text="48"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/evening_icon"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/sunset_icon"
+                android:src="@drawable/sunset"
+                android:scaleType="fitEnd"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/evening"
+                android:id="@+id/evening_tv"
+                android:fontFamily="casual"
+                tools:text="SUNSET"
+                android:gravity="start|center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

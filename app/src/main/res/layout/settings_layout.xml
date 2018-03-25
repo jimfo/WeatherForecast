@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/settings_back_btn"
+        android:background="#0E3F66"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:onClick="backToMain"
+        android:clickable="true"
+        android:fontFamily="casual"
+        android:focusable="true"
+        android:gravity="start|center_vertical"
+        android:text="@string/settings"
+        android:drawableStart="@drawable/arrow_left"
+        android:drawableLeft="@drawable/arrow_left"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/grey"
+        android:textAllCaps="true"
+        android:background="@color/lightgrey"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:fontFamily="casual"
+        android:text="@string/data_sync"
+        android:gravity="start|center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_interval_ll"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:onClick="selectView"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/interval"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:gravity="start|bottom"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:text="@string/interval_duration"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/grey"
+        android:textAllCaps="true"
+        android:fontFamily="casual"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:background="@color/lightgrey"
+        android:text="@string/general_settings"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:textColor="@color/black"
+        android:id="@+id/edit_city_list_tv"
+        android:textStyle="bold"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:onClick="selectView"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/edit_city_list"
+        android:fontFamily="casual"
+        android:gravity="start|center_vertical"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/temperature_ll"
+        android:textColor="@color/black"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:onClick="selectView"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/temp_unit_title"
+            android:textSize="14sp"
+            android:id="@+id/temperature_tv"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:gravity="start|bottom"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:id="@+id/temperature_unit_tv"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wind_speed_ll"
+        android:onClick="selectView"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:textColor="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/wind_speed_title"
+            android:fontFamily="casual"
+            android:id="@+id/wind_speed_tv"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="start|bottom"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:id="@+id/wind_speed_unit_tv"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey" />
+
+</LinearLayout>

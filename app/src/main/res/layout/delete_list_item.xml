@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33B5E5"
+    android:id="@+id/delete_list_item_ll"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="4dp"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:theme="@style/checkBoxStyle"
+        android:gravity="center_vertical"
+        android:focusable="false"
+        android:clickable="false"
+        android:tag="off"
+        android:id="@+id/item_selected"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="11"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/item_city_name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/state_country"
+            android:id="@+id/item_state_name"/>
+
+    </LinearLayout>
+
+</LinearLayout>
