@@ -38,3 +38,12 @@ matches the functionality of the Android Weather Widget
 ![screenshot_3](https://user-images.githubusercontent.com/5784029/37882104-14e09db2-306e-11e8-99c5-da8cd09beca7.png)
 
 __Weather List View__
+
+
+All functionality works as it should. Selected increments/decrements based on number selected,
+select all selects all/deselects all, delete button is greyed out when 0 items are selected and
+highlighted when at least one city is selected. Matches functionality of the Android Weather Widget.
+
+![screenshot_4](https://user-images.githubusercontent.com/5784029/37882298-281e5002-3070-11e8-855e-8129d8c48f5a.png)
+
+__Delete City Activity__
