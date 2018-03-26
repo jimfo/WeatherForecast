@@ -65,3 +65,11 @@ The grips to the right allow the user to reorder the city list.
 ![screenshot_6](https://user-images.githubusercontent.com/5784029/37882624-e8f912f6-3072-11e8-8f4e-d08b0a0d7104.png)
 
 __Edit City Activity__
+
+
+I took the Udacity Sunshine app course and was selected to take part in their Grow with Google course which, I believe, was
+a more in depth course than the Sunshine app. ( I was offered the Grow with Google whilst in the middle of the Sunshine app )
+I kind of got ahead of myself with this project and need to do a lot of refactoring to incorporate more of what I learned in the 
+Grow with Google course. To finish this project as it is I need to add more images to handle all weather codes and complete the
+Update Interval Functionality. 
+
