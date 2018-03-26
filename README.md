@@ -24,7 +24,7 @@ None. I'm happy with how the Fragment is setup.
 
 __Current Weather View with Five-Day selected.__
 
--------------------------------------------------------------------------------------------------------------------
+**-------------------------------------------------------------------------------------------------------------------**
 
 Cities have long press functionality for delete.
 The Floating Action button shrinks and disappears when clicked. It reappears and grows to original size when return
@@ -40,7 +40,7 @@ matches the functionality of the Android Weather Widget
 
 __Weather List View__
 
--------------------------------------------------------------------------------------------------------------------
+**-------------------------------------------------------------------------------------------------------------------**
 
 All functionality works as it should. Selected increments/decrements based on number selected,
 select all selects all/deselects all, delete button is greyed out when 0 items are selected and
