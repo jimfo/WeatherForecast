@@ -2,9 +2,19 @@
 ## A Weather App
 
 On my LG-G4 I have a Weather Widget from which I modelled this app. 
+I download the list of cities that OpenWeatherMap.org uses, I believe it was just over 70,000 cities.
+I don't have the full list but I think I got about 20,000 cities represented worldwide.
 
-The background changes to a darker shade based Sunrise/Sunset of the first
-city in the list.
+Some of the functionality:
+1. Sunrise and Sunset times per location.
+2. The background changes to a darker shade based Sunrise/Sunset of the first city in the list.
+3. Set Celsius/Fahrenheit
+4. Set Mile Per Hour or Meters Per Second.
+5. Reorder list.
+6. Add citites.
+7. Delete cities, long press or Delete City Activity
+8. Touch city in city list and move to home page with that city displayed.
+9. Five-day forecast.
 
 ### Issues : 
 1. I would like the Loading Indicator to overlay the refresh icon until it's done.
