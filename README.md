@@ -7,7 +7,7 @@ I don't have the full list but I think I got about 20,000 cities represented wor
 
 Some of the functionality:
 1. Sunrise and Sunset times per location.
-2. The background changes to a darker shade based Sunrise/Sunset of the first city in the list.
+2. The background changes to a darker shade based on Sunrise/Sunset time of the first city in the list.
 3. Set Celsius/Fahrenheit
 4. Set Mile Per Hour or Meters Per Second.
 5. Reorder list.
