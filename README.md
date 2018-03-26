@@ -49,3 +49,11 @@ highlighted when at least one city is selected. Matches functionality of the And
 ![screenshot_4](https://user-images.githubusercontent.com/5784029/37882298-281e5002-3070-11e8-855e-8129d8c48f5a.png)
 
 __Delete City Activity__
+
+**-------------------------------------------------------------------------------------------------------------------**
+
+All functionality works except Update Interval, I have not yet implemented that.
+
+![screenshot_5](https://user-images.githubusercontent.com/5784029/37882424-39b9a52c-3071-11e8-9f5d-bb6d67f84d70.png)
+
+__Settings Activity__
