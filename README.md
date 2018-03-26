@@ -12,6 +12,7 @@ city in the list.
    so I'll change that later.
 
 ![screenshot1](https://user-images.githubusercontent.com/5784029/37881891-dbcd4554-306b-11e8-9376-4c0d84478b10.png)
+
 __Current Weather View with Today Selected__
 
 
@@ -20,6 +21,7 @@ __Current Weather View with Today Selected__
 None. I'm happy with how the Fragment is setup.
 
 ![screenshot_2](https://user-images.githubusercontent.com/5784029/37882038-86a328f8-306d-11e8-8a8c-11d800e6afbe.png)
+
 __Current Weather View with Five-Day selected.__
 
 
@@ -34,4 +36,5 @@ matches the functionality of the Android Weather Widget
 3. I am using a List View with Adapter, I need to use a RecyclerView here.
 
 ![screenshot_3](https://user-images.githubusercontent.com/5784029/37882104-14e09db2-306e-11e8-99c5-da8cd09beca7.png)
+
 __Weather List View__
