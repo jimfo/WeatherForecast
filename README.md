@@ -60,4 +60,8 @@ __Settings Activity__
 
 **-------------------------------------------------------------------------------------------------------------------**
 
+The grips to the right allow the user to reorder the city list.
+
+![screenshot_6](https://user-images.githubusercontent.com/5784029/37882624-e8f912f6-3072-11e8-8f4e-d08b0a0d7104.png)
+
 __Edit City Activity__
