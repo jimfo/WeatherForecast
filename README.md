@@ -11,3 +11,10 @@ city in the list.
    so I'll change that later.
 
 ![screenshot1](https://user-images.githubusercontent.com/5784029/37881891-dbcd4554-306b-11e8-9376-4c0d84478b10.png)
+
+This is the first screen with Five-Day selected.
+
+### Issues :
+None. I'm happy with how the Fragment is setup.
+
+![screenshot_2](https://user-images.githubusercontent.com/5784029/37882038-86a328f8-306d-11e8-8a8c-11d800e6afbe.png)
