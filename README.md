@@ -59,5 +59,5 @@ The grips to the right allow the user to reorder the city list.
 
 __Edit City Activity__
 
-
+This was my first attempt at making a weather app. I did this before taking Udacity's Nanodegree course and I will come back to this at a future date to update this project with what I've learned.
 
